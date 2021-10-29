@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="105510" started-at="2021-10-29T12:37:35Z" finished-at="2021-10-29T12:39:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="105510" started-at="2021-10-29T12:37:35Z" finished-at="2021-10-29T12:39:20Z">
+      <class name="com.project.sauceDemo.LoginTest">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.project.sauceDemo.LoginTest@3e6fa38a]" name="OpenBrowser" is-config="true" duration-ms="73268" started-at="2021-10-29T12:37:35Z" finished-at="2021-10-29T12:38:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="performLogin()[pri:0, instance:com.project.sauceDemo.LoginTest@3e6fa38a]" name="performLogin" duration-ms="20911" started-at="2021-10-29T12:38:49Z" finished-at="2021-10-29T12:39:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.project.sauceDemo.LoginTest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="10685" started-at="2021-10-29T12:39:10Z" finished-at="2021-10-29T12:39:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.project.sauceDemo.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
