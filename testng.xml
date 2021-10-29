@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="com.project.sauceDemo.LoginTest"/>
+      <class name="com.project.sauceDemo.CheckOutTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

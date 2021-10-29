@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="105510" started-at="2021-10-29T12:37:35Z" finished-at="2021-10-29T12:39:20Z">
+  <suite name="Suite" duration-ms="32821" started-at="2021-10-29T16:17:44Z" finished-at="2021-10-29T16:18:17Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="105510" started-at="2021-10-29T12:37:35Z" finished-at="2021-10-29T12:39:20Z">
-      <class name="com.project.sauceDemo.LoginTest">
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.project.sauceDemo.LoginTest@3e6fa38a]" name="OpenBrowser" is-config="true" duration-ms="73268" started-at="2021-10-29T12:37:35Z" finished-at="2021-10-29T12:38:48Z">
+    <test name="Test" duration-ms="32821" started-at="2021-10-29T16:17:44Z" finished-at="2021-10-29T16:18:17Z">
+      <class name="com.project.sauceDemo.CheckOutTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.project.sauceDemo.CheckOutTest@3e6fa38a]" name="openBrowser" is-config="true" duration-ms="31303" started-at="2021-10-29T16:17:44Z" finished-at="2021-10-29T16:18:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="performLogin()[pri:0, instance:com.project.sauceDemo.LoginTest@3e6fa38a]" name="performLogin" duration-ms="20911" started-at="2021-10-29T12:38:49Z" finished-at="2021-10-29T12:39:10Z">
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="placeOrder()[pri:0, instance:com.project.sauceDemo.CheckOutTest@3e6fa38a]" name="placeOrder" duration-ms="256" started-at="2021-10-29T16:18:15Z" finished-at="2021-10-29T16:18:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- performLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.project.sauceDemo.LoginTest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="10685" started-at="2021-10-29T12:39:10Z" finished-at="2021-10-29T12:39:20Z">
+        </test-method> <!-- placeOrder -->
+        <test-method status="PASS" signature="validateSuccessMessage()[pri:0, instance:com.project.sauceDemo.CheckOutTest@3e6fa38a]" name="validateSuccessMessage" duration-ms="113" started-at="2021-10-29T16:18:16Z" finished-at="2021-10-29T16:18:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSuccessMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.project.sauceDemo.CheckOutTest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="1082" started-at="2021-10-29T16:18:16Z" finished-at="2021-10-29T16:18:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.project.sauceDemo.LoginTest -->
+      </class> <!-- com.project.sauceDemo.CheckOutTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

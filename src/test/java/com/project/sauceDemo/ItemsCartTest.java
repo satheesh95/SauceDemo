@@ -6,25 +6,32 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import pages.CustomerDetailsPage;
 import pages.HomePage;
+import pages.ItemsCartPage;
 import pages.LoginPage;
 
-public class LoginTest extends TestBase{
+public class ItemsCartTest extends TestBase {
+	
 	LoginPage lp;
 	HomePage hp;
+	ItemsCartPage ip;
+	CustomerDetailsPage cd;
 	
 	@BeforeTest
-	public void OpenBrowser() throws IOException{
+	public void openBrowser() throws IOException{
 		
 		initializeDriver();
 		lp = new LoginPage();
-		
+		hp = lp.login();
+		ip = hp.goToCart();
 	}
 	
 	@Test
-	public void performLogin(){
+	public void clickCheckOut(){
 		
-		hp = lp.login();
+		cd = ip.clickCheckout();
+		
 	}
 	
 	@AfterTest
